@@ -145,11 +145,6 @@ Widget my_section_menu() {
       );
       return list;
     },
-    /*icon: Icon(
-      Icons.settings,
-      size: 50,
-      color: Colors.white,
-    ),*/
   );
 }
 
@@ -173,10 +168,6 @@ Widget my_context_menu() {
                value: 1,
                child: Row(
                  children: <Widget>[
-                   /*Padding(
-                     padding: const EdgeInsets.fromLTRB(2, 2, 8, 2),
-                     child: Icon(Icons.print),
-                   ),*/
                    Text('Menu Item 1')
                  ],
                )));
@@ -185,10 +176,7 @@ Widget my_context_menu() {
              value: 2,
              child: Row(
                children: <Widget>[
-                 /*Padding(
-                   padding: const EdgeInsets.fromLTRB(2, 2, 8, 2),
-                   child: Icon(Icons.share),
-                 ),*/
+                 
                  Text('Menu Item 2')
                ],
              )),
@@ -198,10 +186,7 @@ Widget my_context_menu() {
            value: 3,
            child: Row(
              children: <Widget>[
-               /*Padding(
-                 padding: const EdgeInsets.fromLTRB(2, 2, 8, 2),
-                 child: Icon(Icons.add_circle),
-               ),*/
+              
                Text('Menu Item 3')
              ],
            ),
@@ -278,10 +263,7 @@ Widget my_simple_menu() {
               value: 1,
               child: Row(
                 children: <Widget>[
-                  /*Padding(
-                    padding: const EdgeInsets.fromLTRB(2, 2, 8, 2),
-                    child: Icon(Icons.print),
-                  ),*/
+                  
                   Text('Simple Item 1')
                 ],
               )));
@@ -290,10 +272,7 @@ Widget my_simple_menu() {
             value: 2,
             child: Row(
               children: <Widget>[
-                /*Padding(
-                  padding: const EdgeInsets.fromLTRB(2, 2, 8, 2),
-                  child: Icon(Icons.share),
-                ),*/
+                
                 Text('Simple Item 2')
               ],
             )),
@@ -303,10 +282,7 @@ Widget my_simple_menu() {
           value: 3,
           child: Row(
             children: <Widget>[
-              /*Padding(
-                padding: const EdgeInsets.fromLTRB(2, 2, 8, 2),
-                child: Icon(Icons.add_circle),
-              ),*/
+            
               Text('Simple Item 1')
             ],
           ),
